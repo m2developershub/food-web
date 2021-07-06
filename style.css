@@ -3,7 +3,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 section{
-    margin: 50px 0 50px 0;
+    margin: 0 0 50px 0;
 }
 /*---------------header area start here-------------- */
 header {
@@ -58,7 +58,7 @@ header ul a {
 .section-one-div-h p{
 padding-right: 20%;
 font: size 18px;
-margin-bottom: 50px;
+margin-bottom: 30px;
 }
 .section-one-div-h a{
     text-decoration: none;
@@ -72,13 +72,18 @@ margin-bottom: 50px;
 
 
 /*---------------section-two area start here-------------- */
+.section-two{
+    background-image: url("images/7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .section-two-img img {
     width: 50%;
     margin-left: 100px;
 }
 .section-two-div h1{
-    margin: 100px 100px 0 0  ;
+    margin: 150px 100px 0 0  ;
 }
 .section-two-div p{
     padding: 0 100px 50px 0;
@@ -93,4 +98,99 @@ margin-bottom: 50px;
 }
 
 
-/*---------------section-two area start here-------------- */
+/*---------------section-two area end here-------------- */
+
+
+/*---------------section-three area start here-------------- */
+
+
+.section-three, .section-four {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    
+}
+.section-three-div{
+    width: 25%;
+    box-shadow: 5px 5px 35px #b3b0b0;
+    margin: 2%;
+    text-align: center;
+    padding: 25px 10px ;
+    border-radius: 10px;
+    
+}
+.section-three-div img{
+width: 90%;
+}
+.section-three-div h3, .section-three-div p{
+    text-align: left;
+    padding: 0 20px;
+}
+
+
+/*---------------section-three area end here-------------- */
+
+
+/*---------------section-four area start here-------------- */
+.section-four-div{
+    width: 25%;
+    text-align: center;
+    padding: 25px 0px;
+    
+}
+.section-four{
+width: 87%;
+margin: auto;
+box-shadow: 5px 5px 35px #b3b0b0 ;
+margin-top: 100px;
+margin-bottom: 100px;
+border-radius: 10px;
+}
+.section-four h1{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 900;
+}
+.section-four p{
+    margin: 0;
+
+}
+
+
+
+/*---------------------section-5---------------------------------------*/
+.section-five{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    
+}
+.section-five-div{
+    width: 25%;
+    
+}
+.section-five-div img{
+    margin:0 ;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    border-radius: 100%;
+    
+}
+
+
+/*---------------------footer---------------------------------------*/
+.footer-area{
+    padding: 25px 0;
+    background-color: #000000;
+    text-align:center;
+    color: #cfcdcd;
+}
+.footer-area span{
+    color: #FA944A;
+}
+.footer-area h3, .footer-area p{
+    margin: 0;
+}
+
+
