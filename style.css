@@ -35,6 +35,7 @@ header ul a {
 .section-two {
   display: flex;
 }
+
 .section-one-div,
 .section-two-div {
   width: 50%;
